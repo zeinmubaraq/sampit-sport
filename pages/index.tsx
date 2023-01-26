@@ -5,6 +5,7 @@ import ExploreSection from '@/components/landing/explore-section';
 import FaqsSection from '@/components/landing/faqs-section';
 import DiscoverSection from '@/components/landing/discover-section';
 import { Inter } from '@next/font/google';
+import ServiceSection from '@/components/landing/service-section';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,6 +22,7 @@ export default function Home() {
       <ExploreSection />
       <FaqsSection />
       <DiscoverSection />
+      <ServiceSection />
     </Layout>
   );
 }
